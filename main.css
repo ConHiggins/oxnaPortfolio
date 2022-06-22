@@ -1,6 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Nunito:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #101814;
+  color: #A3B18A;
+  font-family: "Josefin Sans";
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #Home {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #3A5A40;
+  }
+  #Home h1 {
+    margin: 1rem;
+    line-height: 4rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #Home p {
+    margin-top: 4rem;
+  }
+
+  #Portfolio {
+    margin: 3rem;
+    background-color: #3A5A40;
+  }
+  #Portfolio h2 {
+    font-size: 2rem;
+  }
+  #Portfolio #Projects .rectangle-button {
+    width: 6rem;
+    height: 2rem;
+    background-color: #344E41;
+    color: #DAD7CD;
+    letter-spacing: 0.2rem;
+    border: 0;
+    border-radius: 0.15rem;
+  }
 }/*# sourceMappingURL=main.css.map */
