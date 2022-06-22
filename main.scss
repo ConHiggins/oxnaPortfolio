@@ -71,6 +71,13 @@ nav {
         
             #Projects {
 
+                img {
+
+                    margin: 4rem;
+                }
+
+
+
                 .rectangle-button {
 
                     width: 6rem;
@@ -81,12 +88,110 @@ nav {
                     border: 0;
                     border-radius: 0.15rem;
                 }
+
+                .round-button {
+
+                    background-color: $mid-col;
+                    width: 2rem;
+                    height: 2rem;
+                    border: none;
+                    border-radius: 50%;
+                    padding-bottom: 0.7rem;
+                }
+
+                /*#eyeshape {
+
+                    margin:0 auto;
+                    width:1.2rem;
+                    height:1.2rem;
+                    border: 2px solid $bg-col;
+                    border-radius: 100% 0px;
+                    transform: rotate(45deg);
+                    
+
+                }*/ 
+
+
             }
+
+    }
+
+
+    #About {
+
+        margin: 3rem;
+        margin-top: 8rem;
+
+        h2 {
+            font-size: 2rem;
+            text-underline-offset: 2rem;
+        }
+
+        img {
+
+            margin:6rem;
+        }
+
+        p {
+            margin:1rem;
+        }
 
     }
     
 
+    #Exp-and-Int{
+
+        margin: 3rem;
+
+        .drop-list-container{
+
+            margin:1rem;
+        }
+
+        .drop{
+            display:flex;
+            flex-direction: row;
+            border: 0.5px solid $mid-col;
+            border-radius: 2px;
+            padding: 1rem;
+        }
+
+        input{
+            appearance:none;
+            margin: 1rem;
+            background: $mid-col;
+            border: none;
+            border-radius: 4px;
+            height: 1.75rem;
+            width: 5rem;
+            transition: rotate 0.3s;
+            
+        }
+
+        .drop-p {
+
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        input:checked {
+
+            appearance:none;
+            background: $font-col;
+            border: none;
+            height: 1.6rem;
+            width: 4.9rem;
+            transform: rotate(45deg);
+
+            
+
+        }
+
+        
+
+        
+    }
 
 
 
-}
+} ///////////////////////Media width phone////////////////////
