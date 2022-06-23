@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@200&family=Nanum+Gothic&family=Nunito:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #101814;
+  background-color: #090e11;
   color: #A3B18A;
-  font-family: "Josefin Sans";
+  font-family: "Cormorant";
 }
 
 nav {
@@ -15,75 +15,135 @@ nav {
   justify-content: space-between;
 }
 
+p {
+  font-family: "Nanum Gothic";
+  font-size: 1rem;
+}
+
+label {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+label:hover {
+  color: #40F99B;
+  opacity: 1;
+}
+
 @media screen and (min-width: 320px) {
   section {
     display: grid;
     grid-template-columns: 1fr;
   }
 
+  nav h1 {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+  }
+
   #Home {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid #3A5A40;
+    border: 2px solid #A3B18A;
   }
-  #Home h1 {
+  #Home fieldset {
+    border: 2px solid #A3B18A;
+  }
+  #Home fieldset legend {
     margin: 1rem;
     line-height: 4rem;
     font-size: 3rem;
     text-underline-offset: 2rem;
+    color: #FFAB5C;
+  }
+  #Home fieldset legend u {
+    color: #FFAB5C;
   }
   #Home p {
     margin-top: 4rem;
+    padding: 2rem;
+    color: #DAD7CD;
+    font-size: 1rem;
   }
 
   #Portfolio {
-    margin: 3rem;
-    background-color: #3A5A40;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #A3B18A;
   }
-  #Portfolio h2 {
-    font-size: 2rem;
+  #Portfolio fieldset {
+    border: 2px solid #A3B18A;
+  }
+  #Portfolio fieldset legend {
+    color: #FFAB5C;
+    padding: 1rem;
+    font-size: 3rem;
   }
   #Portfolio #Projects {
-    /*#eyeshape {
-
-        margin:0 auto;
-        width:1.2rem;
-        height:1.2rem;
-        border: 2px solid $bg-col;
-        border-radius: 100% 0px;
-        transform: rotate(45deg);
-
-
-    }*/
+    margin: 1rem;
+    font-size: 1.75rem;
   }
   #Portfolio #Projects img {
     margin: 4rem;
   }
-  #Portfolio #Projects .rectangle-button {
-    width: 6rem;
+  #Portfolio #Projects .project {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.5fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
+    row-gap: 0.6rem;
+  }
+  #Portfolio #Projects .project img {
+    grid-column: 1 span 2;
+  }
+  #Portfolio #Projects .project h3 {
+    grid-row-start: 2;
+    grid-column-start: 1 span 2;
+    text-underline-offset: 0.5rem;
+  }
+  #Portfolio #Projects .project .rectangle-button {
+    width: 5rem;
     height: 2rem;
     background-color: #344E41;
     color: #DAD7CD;
     letter-spacing: 0.2rem;
     border: 0;
     border-radius: 0.15rem;
+    font-size: 1rem;
+    grid-row-start: 4;
   }
-  #Portfolio #Projects .round-button {
+  #Portfolio #Projects .project .round-button {
     background-color: #344E41;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border: none;
     border-radius: 50%;
     padding-bottom: 0.7rem;
+    grid-row-start: 3;
+    grid-column-start: 1 span 2;
   }
 
   #About {
-    margin: 3rem;
-    margin-top: 8rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #A3B18A;
   }
-  #About h2 {
-    font-size: 2rem;
+  #About fieldset {
+    border: 2px solid #A3B18A;
+  }
+  #About fieldset legend {
+    color: #FFAB5C;
+    padding: 1rem;
+    font-size: 3rem;
     text-underline-offset: 2rem;
+  }
+  #About fieldset legend u {
+    color: #FFAB5C;
+  }
+  #About fieldset p {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    color: #DAD7CD;
+    font-size: 1rem;
   }
   #About img {
     margin: 6rem;
@@ -92,24 +152,52 @@ nav {
     margin: 1rem;
   }
 
-  #Exp-and-Int {
-    margin: 3rem;
-  }
-  #Exp-and-Int .drop-list-container {
+  #Experience-and-Interests {
     margin: 1rem;
+    padding: 0rem;
+    gap: 1rem;
   }
-  #Exp-and-Int .drop {
+  #Experience-and-Interests #experience-fieldset {
+    border: 2px solid #A3B18A;
+  }
+  #Experience-and-Interests #experience-fieldset legend {
+    color: #FFAB5C;
+    padding: 1rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #Experience-and-Interests #experience-fieldset legend u {
+    color: #FFAB5C;
+  }
+  #Experience-and-Interests #interest-fieldset {
+    border: 2px solid #A3B18A;
+    border-left: none;
+  }
+  #Experience-and-Interests #interest-fieldset legend {
+    color: #FFAB5C;
+    padding: 1rem;
+    font-size: 3rem;
+    border-right: none;
+    text-underline-offset: 2rem;
+  }
+  #Experience-and-Interests #interest-fieldset legend u {
+    color: #FFAB5C;
+  }
+  #Experience-and-Interests .drop-list__container {
+    margin: 0rem;
+  }
+  #Experience-and-Interests .drop {
     display: flex;
     flex-direction: row;
-    border: 0.5px solid #344E41;
+    border: 2px solid #344E41;
     border-radius: 2px;
     padding: 1rem;
   }
-  #Exp-and-Int input {
+  #Experience-and-Interests input {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    margin: 1rem;
+    margin: rem;
     background: #344E41;
     border: none;
     border-radius: 4px;
@@ -117,11 +205,11 @@ nav {
     width: 5rem;
     transition: rotate 0.3s;
   }
-  #Exp-and-Int .drop-p {
+  #Experience-and-Interests .drop-p {
     opacity: 0;
     transition: opacity 0.3s;
   }
-  #Exp-and-Int input:checked {
+  #Experience-and-Interests input:checked {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
@@ -130,5 +218,29 @@ nav {
     height: 1.6rem;
     width: 4.9rem;
     transform: rotate(45deg);
+  }
+
+  #Contact {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    border: 2px solid #A3B18A;
+    border-top: none;
+    text-align: center;
+  }
+  #Contact fieldset {
+    border: 2px solid #A3B18A;
+  }
+  #Contact fieldset legend {
+    color: #FFAB5C;
+    padding: 1rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #Contact fieldset h5 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
