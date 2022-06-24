@@ -24,29 +24,38 @@
 
     nav {
 
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
         h1 {
 
             padding: 0.5rem;
             font-size: 3.5rem;
+            width: 33%;
         }
 
         .line {
 
             height:1px;
-            width: 99%;
+            width:10%;
             border: 2px solid $font-col;
             border-bottom: none;
             margin-top: 4rem;
         }
 
+        a {
+            display: flex;
+            text-decoration: none;
+            font-size: 2rem;
+            font-family: "Padauk";
+            margin:1rem;
+        }
+
         select {
 
-            border: none;
-            width: 20rem;
-            height: 8rem;
-            font-family: "Nanum Gothic";
-            font-size: 2rem;
-            text-align: center;
+            display: none;
             
         }
     }
