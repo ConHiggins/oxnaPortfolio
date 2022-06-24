@@ -64,7 +64,7 @@
                 margin-top:4rem;
                 padding: 2rem;
                 color: $hi-col;
-                font-size: 1rem;
+                
             }
     }
 
@@ -152,9 +152,10 @@
                             display: flex;
                             align-items: center;
                             grid-row: 2;
+                            
 
                             label {
-                                display: none;
+                                font-size:0;
                             }
                         }
 
@@ -169,6 +170,9 @@
                             padding-bottom: 0.7rem;
                             grid-row-start: 4;
                             grid-column-start: 1 span 2;
+                            text-indent: 100%;
+                            white-space: nowrap;
+                            overflow: hidden;
                         }
 
                 }
@@ -208,7 +212,6 @@
                     margin-top:2rem;
                     padding: 0.5rem;
                     color: $hi-col;
-                    font-size: 1rem;
                 }
             }
 

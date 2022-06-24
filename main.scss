@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@200&family=Nanum+Gothic&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@200&family=Nanum+Gothic&family=Nunito:wght@300&family=Padauk&display=swap');
 
 
 
@@ -28,6 +28,21 @@ $contrast-col: #FFAB5C;
 }
 
 
+img {
+
+    
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+
+img:active {
+
+    text-indent: none;
+    
+}
+
+
 nav {
 
     display:flex;
@@ -38,8 +53,8 @@ nav {
 
 
 p {
-    font-family: "Nanum Gothic";
-    font-size: 1rem;
+    font-family: "Padauk";
+    font-size: 1.4rem;
 }
 
 label {
