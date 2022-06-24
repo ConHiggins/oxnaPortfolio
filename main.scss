@@ -13,6 +13,7 @@ $active-col: #40F99B;
 $contrast-col: #FFAB5C;
 
 @import "mobile"; ////Must come after variables are defined ^
+@import "tablet";
 @import "desktop";
 
 * {
@@ -75,7 +76,8 @@ label:hover {
 }
 
 button {
-    font-family: "Nanum Gothic";
+    
+    font-family: "Cormorant";
     background-color: $mid-col;
     transition: background-color 0.3s;
 }

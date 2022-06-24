@@ -12,7 +12,7 @@
     
 <!-------------Nav bar-------------------------------------->
     <nav>
-        <h1 class="Name">Conor Higgins</h1>
+        <h1 class="Name">Conor Higgins </h1>
         <!---div class="line"></div>-->
         <a href="#Portfolio" class="navigation-link" id="nav-link-">Portfolio</a>
         <a href="#About" class="navigation-link" id="nav-link-">About</a>
@@ -49,42 +49,48 @@
         <section id="Projects">
             <div class="project" id="project-1">
                 <img class="project-image" alt="project-1-image" src="">
-                <h3><u>Proj</u>ect 1</h3>
+                <h2><u>Proj</u>ect 1</h2>
                 <section id="round-buttons">
                     <label for="view-project">view project 1</label>
-                        <button class = "round-button" id="view-project-1" aria-hidden="true">view project</button>
-                        <button class = "round-button" id="view-code-project-1">view code</button>
+                        <button class = "round-button" id="view-project-1">&#9654;</button>
+                        <button class = "round-button" id="view-code-project-1">&lt;/&gt;</button>
                     <label for="view-code">view code project 1</label>
                 </section>
-                <button class = "rectangle-button" id="view-react-project-1">React</button>
-                <button class = "rectangle-button" id="view-scss-project-1">SCSS</button>
+                <section id="rectangle-buttons">
+                    <button class = "rectangle-button" id="view-react-project-1">React</button>
+                    <button class = "rectangle-button" id="view-scss-project-1">SCSS</button>
+                </section>
             </div>
 
             <div class="project" id="project-2">
                 <img class="project-image" alt="project-2-image"  src="">
-                <h3><u>Proj</u>ect 2</h3>
+                <h2><u>Proj</u>ect 2</h2>
                 <section id="round-buttons">
                     <label for="view-project">view project 2</label>
-                    <button class = "round-button" id="view-project-2">view project</button>
-                    <button class = "round-button" id="view-code-project-2">view code</button>
+                    <button class = "round-button" id="view-project-2">&#9654;</button>
+                    <button class = "round-button" id="view-code-project-2">&lt;/&gt;</button>
                     <label for="view-code">view code project 2</label>
                     
                 </section>
-                <button class = "rectangle-button" id="view-react-project-2">React</button>
-                <button class = "rectangle-button" id="view-scss-project-2">SCSS</button>
+                <section id="rectangle-buttons">
+                    <button class = "rectangle-button" id="view-react-project-2">React</button>
+                    <button class = "rectangle-button" id="view-scss-project-2">SCSS</button>
+                </section>
             </div>
 
             <div class="project" id="project-3">
                 <img class="project-image"  alt="project-3-image" src="">
-                <h3><u>Proj</u>ect 3</h3>
+                <h2><u>Proj</u>ect 3</h2>
                 <section id="round-buttons">
                     <label for="view-project">view project 3</label>
-                        <button class = "round-button" id="view-project-3">view project</button>
-                        <button class = "round-button" id="view-code-project-3">view code</button>
+                        <button class = "round-button" id="view-project-3">&#9654;</button>
+                        <button class = "round-button" id="view-code-project-3">&lt;/&gt;</button>
                     <label for="view-code">view code project 3</label>
                 </section>
-                <button class = "rectangle-button" id="view-react-project-3">React</button>
-                <button class = "rectangle-button" id="view-scss-project-3">SCSS</button>
+                <section id="rectangle-buttons">
+                    <button class = "rectangle-button" id="view-react-project-3">React</button>
+                    <button class = "rectangle-button" id="view-scss-project-3">SCSS</button>
+                </section>
             </div>
         </section>
     </fieldset>
@@ -118,10 +124,17 @@
             <div class="drop-list__container" id="experience-dropdown__container">
                 
                     <section class="drop" id="exp1">
-                        <h4>Trainee Software Developer @ <i>_Nology</i></h4>
-                        <label for="read-more">Read more</label>
-                        <input class="read-more" type="checkbox" id="read-more">
-                        <p class="interest-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <h3>Trainee Software Developer @ <i>_Nology</i></h3>
+                        <label for="read-more-experience-1">read more</label>
+                        <input class="read-more" type="checkbox" id="read-more-experience-1">
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </section>
+
+                    <section class="drop" id="exp2">
+                        <h3>Junior Data Executive @ <i>DJS Research Ltd.</i></h3>
+                        <label for="read-more-experience-2">read more</label>
+                        <input class="read-more" type="checkbox" id="read-more-experience-2">
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </section>
                 
             </div>
@@ -133,9 +146,9 @@
             <div class="drop-list__container" id="interests-dropdown__container">                
                 
                     <section  class="drop" id="int1">
-                        <h4>Music Production</h4>
-                        <label for="show-more">Show more</label>
-                        <input class="show-more" type="checkbox">
+                        <h3>Music Production</h3>
+                        <label for="read-more-interest-1">read more</label>
+                        <input class="read-more" type="checkbox" id="read-more-interest-1">
                         <p class="interest-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </section>
                     
@@ -153,7 +166,7 @@
             
 
         <legend>Get in Touch</legend>
-        <h5>CONTACT</h5>
+        <h4>CONTACT</h4>
 
         </fieldset>
 
@@ -161,9 +174,9 @@
 
 
     <footer>
-        <button class="round-button extportfolio" id="view-linked-in"></button>
-        <button class="round-button extportfolio" id="view-git-hub"></button>
-        <button class="round-button extportfolio" id="view-cv"></button>
+        <button class="round-button-ext" id="visit-linked-in-page"></button>
+        <button class="round-button extportfolio" id="visit-git-hub-page"></button>
+        <button class="round-button extportfolio" id="open-cv"></button>
 
     </footer>
 

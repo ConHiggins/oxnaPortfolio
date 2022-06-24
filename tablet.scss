@@ -1,14 +1,14 @@
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 
 
     
     body { 
         
-        margin: 6rem;
+        margin: 3rem;
         margin-top: 0;
-        padding: 4rem;
+        padding: 2rem;
         padding-top: 0;
         border: 2px solid $bg-col-other;
         border-top: none;
@@ -71,7 +71,7 @@
         padding: 1rem;
         
         border: 2px solid $font-col;
-        border-top: none;
+        
         border-bottom: 2px solid $font-col;
         grid-template-columns: 1fr 1fr;
 
@@ -81,7 +81,7 @@
             grid-column: 1/3;
             border: 2px solid $contrast-col;
             border-bottom: none;
-            margin: 4rem;
+            margin: 2rem;
 
                 legend {
                     margin: 1rem;
@@ -128,7 +128,7 @@
             border: 2px solid $contrast-col; 
             border-bottom: none;
             width: 88%;
-            margin: 4rem;
+            margin: 2rem;
             
                 legend {
                     
@@ -203,11 +203,9 @@
                         .round-button {
 
                             background-color: $mid-col;
-                            color: $hi-col;
-                            font-family: "Cormorant";
-                            font-weight: bold;
                             width: 3rem;
                             height: 3rem;
+                            font-weight: bold;
                             border: none;
                             border-radius: 50%;
                             padding-bottom: 0rem;
@@ -235,7 +233,7 @@
 
             border: 2px solid $contrast-col; 
             
-            margin: 4rem;
+            margin: 2rem;
                 legend {
                     
                     color:$contrast-col;
@@ -284,7 +282,7 @@
 
         fieldset {
 
-            margin: 4rem;
+            margin: 2rem;
         }
         
 
@@ -314,7 +312,7 @@
 
             border: 2px solid $font-col;
             border-left: none; 
-            margin-right: 4rem;
+            margin-right: 2rem;
             legend {
                 
                 text-align: right;
@@ -401,7 +399,7 @@
 
             
             border: 2px solid $contrast-col; 
-            margin: 4rem;
+            margin: 2rem;
             
             legend {
                     
