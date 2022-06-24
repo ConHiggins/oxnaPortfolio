@@ -1,35 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant&family=Josefin+Sans:wght@200&family=Nanum+Gothic&family=Nunito:wght@300&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  background-color: #090e11;
-  color: #A3B18A;
-  font-family: "Cormorant";
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-p {
-  font-family: "Nanum Gothic";
-  font-size: 1rem;
-}
-
-label {
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-label:hover {
-  color: #40F99B;
-  opacity: 1;
-}
-
 @media screen and (min-width: 320px) {
   section {
     display: grid;
@@ -40,6 +9,14 @@ label:hover {
     padding: 0.5rem;
     font-size: 2.5rem;
   }
+  nav select {
+    border: none;
+    width: 8rem;
+    height: 4rem;
+    font-family: "Nanum Gothic";
+    font-size: 2rem;
+    text-align: center;
+  }
 
   #Home {
     margin: 1rem;
@@ -47,7 +24,7 @@ label:hover {
     border: 2px solid #A3B18A;
   }
   #Home fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
   }
   #Home fieldset legend {
     margin: 1rem;
@@ -72,7 +49,7 @@ label:hover {
     border: 2px solid #A3B18A;
   }
   #Portfolio fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
   }
   #Portfolio fieldset legend {
     color: #FFAB5C;
@@ -128,7 +105,7 @@ label:hover {
     border: 2px solid #A3B18A;
   }
   #About fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
   }
   #About fieldset legend {
     color: #FFAB5C;
@@ -158,7 +135,7 @@ label:hover {
     gap: 1rem;
   }
   #Experience-and-Interests #experience-fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
     border-right: none;
   }
   #Experience-and-Interests #experience-fieldset legend {
@@ -175,16 +152,17 @@ label:hover {
     border-left: none;
     margin-left: none;
     margin-right: 1rem;
+    color: #FFAB5C;
   }
   #Experience-and-Interests #interest-fieldset legend {
     text-align: right;
-    color: #FFAB5C;
+    color: #A3B18A;
     padding: 1rem;
     font-size: 3rem;
     text-underline-offset: 1rem;
   }
   #Experience-and-Interests #interest-fieldset legend u {
-    color: #FFAB5C;
+    color: #A3B18A;
   }
   #Experience-and-Interests .drop-list__container {
     margin: 0rem;
@@ -200,23 +178,21 @@ label:hover {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    margin: rem;
-    background: #A3B18A;
-    border: none;
-    border-radius: 4px;
-    height: 1.75rem;
-    width: 5rem;
+    margin: 2rem;
+    margin-top: 0;
+    background: #FFAB5C;
+    border: 2px solid #10191F;
+    border-radius: 50%;
+    height: 2rem;
+    width: 5.6rem;
     transition: rotate 0.3s;
+    outline: 2px solid #DAD7CD;
   }
   #Experience-and-Interests input:checked {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    background: #A3B18A;
-    border: none;
-    height: 1.6rem;
-    width: 4.85rem;
-    transform: rotate(45deg);
+    background: #40F99B;
   }
 
   #Contact {
@@ -229,7 +205,7 @@ label:hover {
     text-align: center;
   }
   #Contact fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
   }
   #Contact fieldset legend {
     color: #FFAB5C;
@@ -241,6 +217,7 @@ label:hover {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
+    color: #40F99B;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -249,9 +226,8 @@ label:hover {
     margin-top: 0;
     padding: 4rem;
     padding-top: 0;
-    border: 2px solid #3A5A40;
+    border: 2px solid #10191F;
     border-top: none;
-    border-bottom: one;
   }
 
   section {
@@ -318,7 +294,6 @@ label:hover {
     margin-top: 4rem;
     border: 2px solid #A3B18A;
     border-top: 2px solid #A3B18A;
-    border-bottom: none;
   }
   #Portfolio fieldset {
     border: 2px solid #FFAB5C;
@@ -329,6 +304,7 @@ label:hover {
     color: #FFAB5C;
     padding: 1rem;
     font-size: 5rem;
+    text-align: right;
   }
   #Portfolio #Projects {
     margin: 1rem;
@@ -391,17 +367,15 @@ label:hover {
     margin-top: 4rem;
     padding: 1rem;
     border: 2px solid #A3B18A;
-    border-top: none;
   }
   #About fieldset {
     border: 2px solid #FFAB5C;
-    border-top: none;
     margin: 4rem;
   }
   #About fieldset legend {
     color: #FFAB5C;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 4rem;
     text-underline-offset: 2rem;
   }
   #About fieldset legend u {
@@ -425,6 +399,7 @@ label:hover {
     margin-top: 8rem;
     padding: 0rem;
     gap: 1rem;
+    border: 2px solid #A3B18A;
   }
   #Experience-and-Interests fieldset {
     margin: 4rem;
@@ -445,21 +420,21 @@ label:hover {
   #Experience-and-Interests #interest-fieldset {
     border: 2px solid #A3B18A;
     border-left: none;
-    margin-left: none;
-    margin-right: 1rem;
+    margin-right: 4rem;
   }
   #Experience-and-Interests #interest-fieldset legend {
     text-align: right;
     color: #FFAB5C;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 4rem;
     text-underline-offset: 1rem;
   }
   #Experience-and-Interests #interest-fieldset legend u {
     color: #FFAB5C;
   }
   #Experience-and-Interests .drop-list__container {
-    margin: 0rem;
+    margin: 4rem;
+    font-size: 2rem;
   }
   #Experience-and-Interests .drop {
     display: flex;
@@ -472,23 +447,26 @@ label:hover {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    margin: rem;
-    background: #A3B18A;
-    border: none;
+    margin: 2rem;
+    margin-top: 0;
+    background: #FFAB5C;
+    border: 2px solid #10191F;
     border-radius: 4px;
-    height: 1.75rem;
-    width: 5rem;
+    height: 1rem;
+    width: 1rem;
     transition: rotate 0.3s;
+    outline: 2px solid #DAD7CD;
   }
   #Experience-and-Interests input:checked {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-    background: #A3B18A;
+    background: #40F99B;
     border: none;
-    height: 1.6rem;
-    width: 4.85rem;
+    height: 1rem;
+    width: 1rem;
     transform: rotate(45deg);
+    margin-right: 4rem;
   }
 
   #Contact {
@@ -501,7 +479,8 @@ label:hover {
     text-align: center;
   }
   #Contact fieldset {
-    border: 2px solid #A3B18A;
+    border: 2px solid #FFAB5C;
+    margin: 4rem;
   }
   #Contact fieldset legend {
     color: #FFAB5C;
@@ -514,4 +493,48 @@ label:hover {
     margin-bottom: 2rem;
     font-size: 2rem;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #090e11;
+  color: #A3B18A;
+  font-family: "Cormorant";
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p {
+  font-family: "Nanum Gothic";
+  font-size: 1rem;
+}
+
+label {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+label:hover {
+  color: #40F99B;
+  opacity: 1;
+}
+
+button {
+  background-color: #344E41;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #40F99B;
+}
+
+footer {
+  background-color: #10191F;
+  height: 2rem;
 }/*# sourceMappingURL=main.css.map */
