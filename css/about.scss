@@ -1,0 +1,163 @@
+///Mobile 
+
+@media screen and (min-width: 320px) {
+
+    #About {
+
+        margin: 1rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        border: 2px solid $font-col;
+
+        fieldset {
+
+            border: 2px solid $contrast-col; 
+                legend {
+                    
+                    color:$contrast-col;
+                    padding:1rem;
+                    font-size: 3rem;
+                    
+                    text-underline-offset: 2rem;
+
+                    u {
+                        color: $contrast-col;
+                    }
+                    
+                }
+
+
+                p {
+                    margin-top:2rem;
+                    padding: 0.5rem;
+                    color: $font-col;
+                }
+            }
+
+        
+
+        img {
+
+            margin:6rem;
+        }
+
+        p {
+            margin:1rem;
+        }
+
+    }
+
+}
+
+
+///Tablet 
+
+@media screen and (min-width: 768px) {
+
+    #About {
+
+        margin: 1rem;
+        margin-top: 4rem;
+        padding: 1rem;
+        border: 2px solid $font-col;
+        
+
+        fieldset {
+
+            border: 2px solid $contrast-col; 
+            
+            margin: 2rem;
+                legend {
+                    
+                    color:$contrast-col;
+                    padding:1rem;
+                    font-size: 4rem;
+                    
+                    text-underline-offset: 2rem;
+
+                    u {
+                        color: $contrast-col;
+                    }
+                    
+                }
+
+
+                p {
+                    margin-top:2rem;
+                    padding: 0.5rem;
+                    color: $font-col;
+                    
+                }
+            }
+
+        
+
+        img {
+
+            margin:6rem;
+        }
+
+        p {
+            margin:1rem;
+        }
+
+    }
+    
+
+}
+
+///Desktop
+
+@media screen and (min-width: 1024px) { 
+
+    #About {
+
+        margin: 1rem;
+        margin-top: 4rem;
+        padding: 1rem;
+        border: 2px solid $font-col;
+        
+
+        fieldset {
+
+            border: 2px solid $contrast-col; 
+            
+            margin: 4rem;
+                legend {
+                    
+                    color:$font-col;
+                    padding:1rem;
+                    font-size: 4rem;
+                    
+                    text-underline-offset: 2rem;
+
+                    u {
+                        color: $contrast-col;
+                    }
+                    
+                }
+
+
+                p {
+                    margin-top:2rem;
+                    padding: 0.5rem;
+                    color: $font-col;
+                    
+                }
+            }
+
+        
+
+        img {
+
+            margin:6rem;
+        }
+
+        p {
+            margin:1rem;
+        }
+
+    }
+
+
+}
