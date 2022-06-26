@@ -112,6 +112,12 @@
             font-size: 2rem;
             font-family: "Inter";
             margin:1rem;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+
+            color: $mid-col;
         }
 
         select {

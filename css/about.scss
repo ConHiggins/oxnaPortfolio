@@ -14,14 +14,14 @@
             border: 2px solid $contrast-col; 
                 legend {
                     
-                    color:$contrast-col;
+                    color:$font-col;
                     padding:1rem;
                     font-size: 3rem;
                     
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -76,7 +76,7 @@
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -132,7 +132,7 @@
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -140,8 +140,11 @@
 
                 p {
                     margin-top:2rem;
+                    margin-right: 10rem;
+                    margin-left: 10rem;
                     padding: 0.5rem;
                     color: $font-col;
+                    text-align: justify;
                     
                 }
             }

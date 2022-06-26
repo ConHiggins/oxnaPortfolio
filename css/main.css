@@ -107,6 +107,10 @@
     font-size: 2rem;
     font-family: "Inter";
     margin: 1rem;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #939F90;
   }
   nav select {
     display: none;
@@ -283,8 +287,10 @@
     grid-template-columns: 1fr 1fr;
     grid-area: 1fr 1fr;
     display: flex;
-    align-items: center;
+    align-items: right;
     grid-row: 2;
+    grid-column: 2;
+    justify-content: right;
   }
   #Projects .project #round-buttons label {
     font-size: 0;
@@ -302,6 +308,9 @@
     font-size: 2rem;
     font-weight: bold;
     align-content: center;
+  }
+  #Projects .project .round-button i {
+    background: transparent;
   }
 }
 @media screen and (min-width: 768px) {
@@ -382,6 +391,9 @@
     padding-bottom: 0rem;
     margin: 0.5rem;
   }
+  #Projects .project .round-button i {
+    background: transparent;
+  }
 }
 @media screen and (min-width: 1024px) {
   #Portfolio {
@@ -442,6 +454,11 @@
     border-radius: 0.15rem;
     font-size: 1.5rem;
     grid-row-start: 3;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  #Projects .project .rectangle-button:hover {
+    background-color: #091211;
+    color: #A55F33;
   }
   #Projects .project #round-buttons {
     display: flex;
@@ -461,6 +478,14 @@
     border-radius: 50%;
     padding-bottom: 0rem;
     margin: 0.5rem;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  #Projects .project .round-button i {
+    background: transparent;
+  }
+  #Projects .project .round-button:hover {
+    background-color: #091211;
+    color: #A55F33;
   }
 }
 @media screen and (min-width: 320px) {
@@ -474,13 +499,13 @@
     border: 2px solid #A55F33;
   }
   #About fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
   #About fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #About fieldset p {
     margin-top: 2rem;
@@ -512,7 +537,7 @@
     text-underline-offset: 2rem;
   }
   #About fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #About fieldset p {
     margin-top: 2rem;
@@ -544,12 +569,15 @@
     text-underline-offset: 2rem;
   }
   #About fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #About fieldset p {
     margin-top: 2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
     padding: 0.5rem;
     color: #F7EAAB;
+    text-align: justify;
   }
   #About img {
     margin: 6rem;
@@ -575,13 +603,13 @@
     grid-row-start: 1;
   }
   #Experience-and-Interests #experience-fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
   #Experience-and-Interests #experience-fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #Experience-and-Interests #interest-fieldset {
     border: 2px solid #F7EAAB;
@@ -642,13 +670,13 @@
     border-right: none;
   }
   #Experience-and-Interests #experience-fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 4rem;
     text-underline-offset: 2rem;
   }
   #Experience-and-Interests #experience-fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #Experience-and-Interests #interest-fieldset {
     border: 2px solid #F7EAAB;
@@ -657,13 +685,13 @@
   }
   #Experience-and-Interests #interest-fieldset legend {
     text-align: right;
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 4rem;
     text-underline-offset: 1rem;
   }
   #Experience-and-Interests #interest-fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #Experience-and-Interests .drop-list__container {
     margin: 4rem;
@@ -682,9 +710,9 @@
     margin-top: 0;
     background: #A55F33;
     border: 2px solid #10191F;
-    border-radius: 4px;
-    height: 1rem;
-    width: 1rem;
+    border-radius: 50%;
+    height: 4rem;
+    width: 50%;
     transition: rotate 0.3s;
     outline: 2px solid #F7EAAB;
   }
@@ -692,10 +720,6 @@
     appearance: none;
     background: #40F99B;
     border: none;
-    height: 1rem;
-    width: 1rem;
-    transform: rotate(45deg);
-    margin-right: 4rem;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -720,7 +744,7 @@
     text-underline-offset: 2rem;
   }
   #Experience-and-Interests #experience-fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #Experience-and-Interests #interest-fieldset {
     border: 2px solid #F7EAAB;
@@ -735,7 +759,7 @@
     text-underline-offset: 1rem;
   }
   #Experience-and-Interests #interest-fieldset legend u {
-    color: #A55F33;
+    color: #F7EAAB;
   }
   #Experience-and-Interests .drop-list__container {
     margin: 4rem;
@@ -793,7 +817,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #40F99B;
+    color: #939F90;
   }
 }
 @media screen and (min-width: 768px) {
@@ -839,13 +863,23 @@
   #Contact fieldset legend {
     color: #F7EAAB;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 5rem;
     text-underline-offset: 2rem;
   }
   #Contact fieldset h4 {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 320px) {
+  #footer {
+    font-size: 8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #footer {
+    font-size: 8rem;
   }
 }
 * {
@@ -884,7 +918,7 @@ canvas {
 
 p {
   font-family: "Inter";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #F7EAAB;
 }
 

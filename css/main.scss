@@ -22,6 +22,7 @@ $contrast-col: #A55F33;
 @import "about";
 @import "experience";
 @import "contact";
+@import "footer";
 
 
 
@@ -74,7 +75,7 @@ canvas {
 
 p {
     font-family: "Inter";
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: $font-col;
 }
 

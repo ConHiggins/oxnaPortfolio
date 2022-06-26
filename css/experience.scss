@@ -24,14 +24,14 @@
                 
                 legend {
                     
-                    color:$contrast-col;
+                    color:$font-col;
                     padding:1rem;
                     font-size: 3rem;
                     
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -138,14 +138,14 @@
                 
                 legend {
                     
-                    color:$contrast-col;
+                    color:$font-col;
                     padding:1rem;
                     font-size: 4rem;
                     
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -161,14 +161,14 @@
             legend {
                 
                 text-align: right;
-                color:$contrast-col;
+                color:$font-col;
                 padding:1rem;
                 font-size: 4rem;
                 
                 text-underline-offset: 1rem;
 
                 u {
-                    color: $contrast-col;
+                    color: $font-col;
                 }
                 
             }
@@ -198,9 +198,9 @@
             margin-top: 0;
             background: $contrast-col;
             border: 2px solid $bg-col-other;
-            border-radius: 4px;
-            height: 1rem;
-            width: 1rem;
+            border-radius: 50%;
+            height: 4rem;
+            width: 50%;
             transition: rotate 0.3s;
             outline: 2px solid $font-col;
             
@@ -213,10 +213,7 @@
             appearance:none;
             background: $active-col;
             border: none;
-            height: 1rem;
-            width: 1rem;
-            transform: rotate(45deg);
-            margin-right: 4rem;
+            
             
 
         }
@@ -261,7 +258,7 @@
                     text-underline-offset: 2rem;
 
                     u {
-                        color: $contrast-col;
+                        color: $font-col;
                     }
                     
                 }
@@ -284,7 +281,7 @@
                 text-underline-offset: 1rem;
 
                 u {
-                    color: $contrast-col;
+                    color: $font-col;
                 }
                 
             }
