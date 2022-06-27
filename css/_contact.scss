@@ -32,11 +32,15 @@
                     
                     
                 }
-            h4 {
+            button {
                 margin-top: 2rem;
                 margin-bottom: 2rem;
                 font-size: 2rem;
-                color: $mid-col;
+                font-family: "Cormorant";
+                background-color: $mid-light-col;
+                color: $font-col;
+                border: 8px solid $mid-light-col;
+                border-radius: 10px;
             }
     }
 
@@ -78,7 +82,7 @@
                     
                     
                 }
-            h4 {
+            button {
                 margin-top: 2rem;
                 margin-bottom: 2rem;
                 font-size: 2rem;
@@ -123,11 +127,14 @@
                     
                     
                 }
-            h4 {
-                color: $mid-light-col;
+            button {
+                
                 margin-top: 2rem;
                 margin-bottom: 2rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
                 font-size: 4rem;
+                
             }
     }
 

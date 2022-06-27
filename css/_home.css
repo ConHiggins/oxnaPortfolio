@@ -93,8 +93,6 @@
   #Home fieldset canvas {
     display: flex;
     z-index: 0;
-    width: 6rem;
-    height: 4rem;
   }
   #Home p {
     margin-top: 4rem;

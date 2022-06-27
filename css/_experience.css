@@ -43,11 +43,22 @@
     margin: 0rem;
   }
   #Experience-and-Interests .drop {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     padding: 1.2rem;
     padding-bottom: 1rem;
-    margin-bottom: 2px solid #F7EAAB;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #F7EAAB;
+  }
+  #Experience-and-Interests .read-more {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
   }
   #Experience-and-Interests input {
     appearance: none;
@@ -116,6 +127,17 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
+  #Experience-and-Interests button {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
+  }
   #Experience-and-Interests input {
     appearance: none;
     margin: 2rem;
@@ -178,11 +200,22 @@
     font-size: 2rem;
   }
   #Experience-and-Interests .drop {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
     padding: 1.2rem;
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
+  }
+  #Experience-and-Interests button {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
   }
   #Experience-and-Interests input {
     appearance: none;

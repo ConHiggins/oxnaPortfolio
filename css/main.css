@@ -211,8 +211,6 @@
   #Home fieldset canvas {
     display: flex;
     z-index: 0;
-    width: 6rem;
-    height: 4rem;
   }
   #Home p {
     margin-top: 4rem;
@@ -531,7 +529,7 @@
     margin: 2rem;
   }
   #About fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 4rem;
     text-underline-offset: 2rem;
@@ -631,14 +629,27 @@
     margin: 0rem;
   }
   #Experience-and-Interests .drop {
-    display: flex;
-    flex-direction: row;
+    display: grid;
     padding: 1.2rem;
     padding-bottom: 1rem;
-    margin-bottom: 2px solid #F7EAAB;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #F7EAAB;
+  }
+  #Experience-and-Interests .read-more {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
   }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 0rem;
     margin-top: 0;
     background: #A55F33;
@@ -650,7 +661,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
   }
 }
@@ -704,8 +717,21 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
+  #Experience-and-Interests button {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
+  }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 2rem;
     margin-top: 0;
     background: #A55F33;
@@ -717,7 +743,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
     border: none;
   }
@@ -766,14 +794,27 @@
     font-size: 2rem;
   }
   #Experience-and-Interests .drop {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
     padding: 1.2rem;
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
+  #Experience-and-Interests button {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    width: 6rem;
+    height: 4rem;
+    border: none;
+    background-color: #091211;
+    color: #F7EAAB;
+    font-size: 4rem;
+    align-items: center;
+  }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 2rem;
     margin-top: 0;
     background: #A55F33;
@@ -785,7 +826,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
     border: none;
     height: 1rem;
@@ -813,11 +856,15 @@
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #939F90;
+    font-family: "Cormorant";
+    background-color: #595D3A;
+    color: #F7EAAB;
+    border: 8px solid #595D3A;
+    border-radius: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -840,7 +887,7 @@
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -866,10 +913,11 @@
     font-size: 5rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
-    color: #595D3A;
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 4rem;
   }
 }
@@ -932,29 +980,6 @@ button {
   color: #091211;
   background-color: #939F90;
   transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #40F99B;
-}
-
-footer {
-  background-color: #091211;
-  width: 100%;
-  height: 4rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-footer button {
-  background-color: #091211;
-  width: 3rem;
-  height: 3rem;
-  border: 2px solid #091211;
-  border-radius: 50%;
-  outline: 2px solid #F7EAAB;
-}ansition: background-color 0.3s;
 }
 
 button:hover {

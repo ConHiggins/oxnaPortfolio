@@ -71,15 +71,18 @@ renderer.setClearColor(scene.fog.color);
     let mouseY = 0;
     let mouseX = 0;
     let mouseZ = 0;
-
+    
 
     function animateCube(event) {
 
-        mouseY = event.clientY*0.003;
+        mouseY = event.clientY*0.0013;
         mouseX = event.clientX*0.0015;
-        mouseZ = (event.clientX - event.clientY) *-0.0005;
+        mouseZ = (event.clientX - event.clientY) *-0.0015;
+
+        
     }
 
+    
 
     function animate() {
 
@@ -89,6 +92,10 @@ renderer.setClearColor(scene.fog.color);
         cube.rotation.y = mouseX;
         cube.rotation.x = mouseY;
         cube.rotation.z = mouseZ;
+
+        
+
+        
 
 
         renderer.render( scene, camera );

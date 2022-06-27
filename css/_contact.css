@@ -17,11 +17,15 @@
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #939F90;
+    font-family: "Cormorant";
+    background-color: #595D3A;
+    color: #F7EAAB;
+    border: 8px solid #595D3A;
+    border-radius: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -44,7 +48,7 @@
     font-size: 3rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
@@ -70,10 +74,11 @@
     font-size: 5rem;
     text-underline-offset: 2rem;
   }
-  #Contact fieldset h4 {
-    color: #595D3A;
+  #Contact fieldset button {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 4rem;
   }
 }
