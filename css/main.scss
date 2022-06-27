@@ -1,28 +1,16 @@
 
 
+@use "_variables" as *;
+@use "_defaults";
+@use "_nav";
+@use "_home";
+@use "_portfolio";
+@use "_about";
+@use "_experience";
+@use "_contact";
+@use "_footer";
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Inter:wght@300&display=swap');
-
-
-
-
-
-$bg-col: #091211;  // #090e11;
-$bg-col-other:  #10191F;
-$mid-col: #939F90; // #FFB570;
-$mid-light-col: #595D3A; // #3A5A40;
-//$hi-col: // #DAD7CD;
-$font-col: #F7EAAB; // #D6C98C;
-$active-col: #40F99B;
-$contrast-col: #A55F33;
-
-@import "defaults";
-@import "nav";
-@import "home";
-@import "portfolio";
-@import "about";
-@import "experience";
-@import "contact";
-@import "footer";
 
 
 
@@ -82,14 +70,10 @@ p {
 label {
 
     opacity: 0;
-    transition: opacity 0.3s;
+    
 }
 
-label:hover {
 
-    color: $active-col;
-    opacity: 1;
-}
 
 button {
     

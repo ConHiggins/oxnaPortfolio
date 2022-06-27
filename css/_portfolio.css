@@ -1,0 +1,268 @@
+@media screen and (min-width: 320px) {
+  #Portfolio {
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    padding-right: 0;
+    border: 2px solid #F7EAAB;
+    border-left: none;
+    border-right: none;
+  }
+  #Portfolio fieldset {
+    border: 2px solid #A55F33;
+    margin: -0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  #Portfolio fieldset legend {
+    color: #A55F33;
+    margin-left: 1rem;
+    font-size: 3rem;
+  }
+
+  #Projects {
+    margin: -0.1rem;
+    font-size: 1.75rem;
+  }
+  #Projects img {
+    width: 100%;
+    margin-right: 1rem;
+  }
+  #Projects .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
+    row-gap: 0.6rem;
+  }
+  #Projects .project img {
+    grid-column: 1/3;
+  }
+  #Projects .project h2 {
+    grid-row-start: 2;
+    grid-column-start: 1 span 2;
+    text-underline-offset: 0.5rem;
+  }
+  #Projects .project #rectangle-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #Projects .project .rectangle-button {
+    width: 5rem;
+    height: 2rem;
+    background-color: #595D3A;
+    color: #F7EAAB;
+    letter-spacing: 0.2rem;
+    border: 0;
+    border-radius: 0.15rem;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-row-start: 3;
+  }
+  #Projects .project #round-buttons {
+    grid-template-columns: 1fr 1fr;
+    grid-area: 1fr 1fr;
+    display: flex;
+    align-items: right;
+    grid-row: 2;
+    grid-column: 2;
+    justify-content: right;
+  }
+  #Projects .project #round-buttons label {
+    font-size: 0;
+  }
+  #Projects .project .round-button {
+    background-color: #595D3A;
+    color: #F7EAAB;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    padding-bottom: 0rem;
+    grid-row-start: 4;
+    grid-column-start: 1 span 2;
+    font-size: 2rem;
+    font-weight: bold;
+    align-content: center;
+  }
+  #Projects .project .round-button i {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 768px) {
+  #Portfolio {
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    border: 2px solid #F7EAAB;
+    border-top: 2px solid #F7EAAB;
+  }
+  #Portfolio fieldset {
+    border: 2px solid #A55F33;
+    border-bottom: none;
+    width: 88%;
+    margin: 2rem;
+  }
+  #Portfolio fieldset legend {
+    color: #A55F33;
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: right;
+  }
+
+  #Projects {
+    margin: 1rem;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Projects img {
+    margin: 0;
+    background-color: #10191F;
+  }
+  #Projects .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
+    row-gap: 0.6rem;
+  }
+  #Projects .project img {
+    grid-column: 1 span 2;
+  }
+  #Projects .project h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+    grid-row-start: 2;
+    grid-column-start: 1 span 3;
+    text-underline-offset: 0.5rem;
+  }
+  #Projects .project .rectangle-button {
+    width: 5rem;
+    height: 2rem;
+    background-color: #595D3A;
+    color: #F7EAAB;
+    letter-spacing: 0.2rem;
+    border: 0;
+    border-radius: 0.15rem;
+    font-size: 1rem;
+    grid-row-start: 3;
+  }
+  #Projects .project #round-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  #Projects .project .round-button {
+    background-color: #595D3A;
+    width: 3rem;
+    height: 3rem;
+    color: #F7EAAB;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    padding-bottom: 0rem;
+    margin: 0.5rem;
+  }
+  #Projects .project .round-button i {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #Portfolio {
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 4rem;
+    border: 2px solid #F7EAAB;
+    border-top: 2px solid #F7EAAB;
+  }
+  #Portfolio fieldset {
+    border: 2px solid #A55F33;
+    border-bottom: none;
+    width: 88%;
+    margin: 4rem;
+  }
+  #Portfolio fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: right;
+  }
+
+  #Projects {
+    margin: 1rem;
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #Projects img {
+    margin: 0;
+    background-color: #10191F;
+  }
+  #Projects .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
+    row-gap: 0.6rem;
+  }
+  #Projects .project img {
+    grid-column: 1 span 2;
+  }
+  #Projects .project h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+    grid-row-start: 2;
+    grid-column-start: 1 span 3;
+    text-underline-offset: 0.5rem;
+  }
+  #Projects .project .rectangle-button {
+    width: 5rem;
+    height: 2rem;
+    background-color: #595D3A;
+    color: #F7EAAB;
+    letter-spacing: 0.2rem;
+    border: 0;
+    border-radius: 0.15rem;
+    font-size: 1.5rem;
+    grid-row-start: 3;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  #Projects .project .rectangle-button:hover {
+    background-color: #091211;
+    color: #A55F33;
+  }
+  #Projects .project #round-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  #Projects .project .round-button {
+    background-color: #595D3A;
+    color: #F7EAAB;
+    font-family: "Cormorant";
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    padding-bottom: 0rem;
+    margin: 0.5rem;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  #Projects .project .round-button i {
+    background: transparent;
+  }
+  #Projects .project .round-button:hover {
+    background-color: #091211;
+    color: #A55F33;
+  }
+}

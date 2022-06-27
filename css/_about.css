@@ -1,0 +1,98 @@
+@media screen and (min-width: 320px) {
+  #About {
+    margin: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+  }
+  #About fieldset {
+    border: 2px solid #A55F33;
+  }
+  #About fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #About fieldset legend u {
+    color: #F7EAAB;
+  }
+  #About fieldset p {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    color: #F7EAAB;
+  }
+  #About img {
+    margin: 6rem;
+  }
+  #About p {
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  #About {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+  }
+  #About fieldset {
+    border: 2px solid #A55F33;
+    margin: 2rem;
+  }
+  #About fieldset legend {
+    color: #A55F33;
+    padding: 1rem;
+    font-size: 4rem;
+    text-underline-offset: 2rem;
+  }
+  #About fieldset legend u {
+    color: #F7EAAB;
+  }
+  #About fieldset p {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    color: #F7EAAB;
+  }
+  #About img {
+    margin: 6rem;
+  }
+  #About p {
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #About {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+  }
+  #About fieldset {
+    border: 2px solid #A55F33;
+    margin: 4rem;
+  }
+  #About fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 4rem;
+    text-underline-offset: 2rem;
+  }
+  #About fieldset legend u {
+    color: #F7EAAB;
+  }
+  #About fieldset p {
+    margin-top: 2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 0.5rem;
+    color: #F7EAAB;
+    text-align: justify;
+  }
+  #About img {
+    margin: 6rem;
+  }
+  #About p {
+    margin: 1rem;
+  }
+}

@@ -808,7 +808,7 @@
     border: 2px solid #A55F33;
   }
   #Contact fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 3rem;
     text-underline-offset: 2rem;
@@ -835,7 +835,7 @@
     margin: 2rem;
   }
   #Contact fieldset legend {
-    color: #A55F33;
+    color: #F7EAAB;
     padding: 1rem;
     font-size: 3rem;
     text-underline-offset: 2rem;
@@ -867,6 +867,7 @@
     text-underline-offset: 2rem;
   }
   #Contact fieldset h4 {
+    color: #595D3A;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 4rem;
@@ -924,12 +925,6 @@ p {
 
 label {
   opacity: 0;
-  transition: opacity 0.3s;
-}
-
-label:hover {
-  color: #40F99B;
-  opacity: 1;
 }
 
 button {

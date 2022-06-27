@@ -1,0 +1,81 @@
+@media screen and (min-width: 320px) {
+  nav h1 {
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    width: 50%;
+  }
+  nav a {
+    display: none;
+  }
+  nav select {
+    border: none;
+    width: 8rem;
+    height: 4rem;
+    font-family: "Nanum Gothic";
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav h1 {
+    padding: 0.5rem;
+    font-size: 3.5rem;
+    width: 33%;
+  }
+  nav .line {
+    height: 1px;
+    width: 10%;
+    border: 2px solid #F7EAAB;
+    border-bottom: none;
+    margin-top: 4rem;
+  }
+  nav a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Padauk";
+    margin: 1rem;
+  }
+  nav select {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  nav h1 {
+    padding: 0.5rem;
+    font-size: 3.5rem;
+    width: 33%;
+  }
+  nav .line {
+    height: 1px;
+    width: 10%;
+    border: 2px solid #F7EAAB;
+    border-bottom: none;
+    margin-top: 4rem;
+  }
+  nav a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Inter";
+    margin: 1rem;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #939F90;
+  }
+  nav select {
+    display: none;
+  }
+}

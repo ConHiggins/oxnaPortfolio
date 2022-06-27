@@ -1,0 +1,79 @@
+@media screen and (min-width: 320px) {
+  #Contact {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    border: 2px solid #F7EAAB;
+    border-top: none;
+    text-align: center;
+  }
+  #Contact fieldset {
+    border: 2px solid #A55F33;
+  }
+  #Contact fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #Contact fieldset h4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #939F90;
+  }
+}
+@media screen and (min-width: 768px) {
+  #Contact {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    border: 2px solid #F7EAAB;
+    border-top: none;
+    text-align: center;
+  }
+  #Contact fieldset {
+    border: 2px solid #A55F33;
+    margin: 2rem;
+  }
+  #Contact fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+  }
+  #Contact fieldset h4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #Contact {
+    margin: 1rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    border: 2px solid #F7EAAB;
+    border-top: none;
+    text-align: center;
+  }
+  #Contact fieldset {
+    border: 2px solid #A55F33;
+    margin: 4rem;
+  }
+  #Contact fieldset legend {
+    color: #F7EAAB;
+    padding: 1rem;
+    font-size: 5rem;
+    text-underline-offset: 2rem;
+  }
+  #Contact fieldset h4 {
+    color: #595D3A;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+}

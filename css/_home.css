@@ -1,0 +1,104 @@
+@media screen and (min-width: 320px) {
+  #Home {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+  }
+  #Home fieldset {
+    border: 2px solid #A55F33;
+  }
+  #Home fieldset legend {
+    margin: 1rem;
+    line-height: 4rem;
+    font-size: 3rem;
+    text-underline-offset: 2rem;
+    color: #F7EAAB;
+  }
+  #Home fieldset legend u {
+    color: #F7EAAB;
+  }
+  #Home fieldset canvas {
+    display: none;
+  }
+  #Home p {
+    margin-top: 4rem;
+    padding: 2rem;
+    color: #F7EAAB;
+  }
+}
+@media screen and (min-width: 768px) {
+  #Home {
+    margin: 1rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+    border-bottom: 2px solid #F7EAAB;
+    grid-template-columns: 1fr 1fr;
+  }
+  #Home fieldset {
+    grid-column: 1/3;
+    border: 2px solid #A55F33;
+    border-bottom: none;
+    margin: 2rem;
+  }
+  #Home fieldset legend {
+    margin: 1rem;
+    line-height: 8rem;
+    font-size: 5rem;
+    text-underline-offset: 2rem;
+    color: #F7EAAB;
+  }
+  #Home fieldset legend u {
+    color: #F7EAAB;
+  }
+  #Home fieldset canvas {
+    display: none;
+  }
+  #Home p {
+    margin-top: 4rem;
+    padding: 2rem;
+    color: #F7EAAB;
+    width: 30rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #Home {
+    margin: 1rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    border: 2px solid #F7EAAB;
+    border-top: none;
+    border-bottom: 2px solid #F7EAAB;
+    grid-template-columns: 1fr 1fr;
+  }
+  #Home fieldset {
+    grid-column: 1/3;
+    border: 2px solid #A55F33;
+    border-bottom: none;
+    margin: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #Home fieldset legend {
+    margin: 1rem;
+    line-height: 8rem;
+    font-size: 5rem;
+    text-underline-offset: 2rem;
+    color: #F7EAAB;
+  }
+  #Home fieldset legend u {
+    color: #F7EAAB;
+  }
+  #Home fieldset canvas {
+    display: flex;
+    z-index: 0;
+    width: 6rem;
+    height: 4rem;
+  }
+  #Home p {
+    margin-top: 4rem;
+    padding: 2rem;
+    width: 30rem;
+  }
+}
