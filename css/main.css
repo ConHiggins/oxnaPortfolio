@@ -635,7 +635,7 @@
     margin-bottom: 1rem;
     border-bottom: 2px solid #F7EAAB;
   }
-  #Experience-and-Interests .read-more {
+  #Experience-and-Interests button {
     grid-row-start: 1;
     grid-column-start: 2;
     width: 6rem;
@@ -647,7 +647,9 @@
     align-items: center;
   }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 0rem;
     margin-top: 0;
     background: #A55F33;
@@ -659,7 +661,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
   }
 }
@@ -713,7 +717,7 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
-  #Experience-and-Interests .read-more {
+  #Experience-and-Interests button {
     grid-row-start: 1;
     grid-column-start: 2;
     width: 6rem;
@@ -725,7 +729,9 @@
     align-items: center;
   }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 2rem;
     margin-top: 0;
     background: #A55F33;
@@ -737,7 +743,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
     border: none;
   }
@@ -792,7 +800,7 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
-  #Experience-and-Interests .read-more {
+  #Experience-and-Interests button {
     grid-row-start: 1;
     grid-column-start: 2;
     width: 6rem;
@@ -804,7 +812,9 @@
     align-items: center;
   }
   #Experience-and-Interests input {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     margin: 2rem;
     margin-top: 0;
     background: #A55F33;
@@ -816,7 +826,9 @@
     outline: 2px solid #F7EAAB;
   }
   #Experience-and-Interests input:checked {
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     background: #40F99B;
     border: none;
     height: 1rem;
@@ -990,4 +1002,4 @@ footer button {
   border: 2px solid #091211;
   border-radius: 50%;
   outline: 2px solid #F7EAAB;
-}
+}/*# sourceMappingURL=main.css.map */
