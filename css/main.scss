@@ -1,14 +1,14 @@
 
 
 @use "_variables" as *;
-@use "_defaults";
-@use "_nav";
-@use "_home";
-@use "_portfolio";
-@use "_about";
-@use "_experience";
-@use "_contact";
-@use "_footer";
+@use "_defaults" as *;
+@use "_nav" as *;
+@use "_home" as *;
+@use "_portfolio" as *;
+@use "_about" as *;
+@use "_experience" as *;
+@use "_contact" as *;
+@use "_footer" as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Inter:wght@300&display=swap');
 
