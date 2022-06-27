@@ -127,7 +127,7 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
-  #Experience-and-Interests button {
+  #Experience-and-Interests .read-more {
     grid-row-start: 1;
     grid-column-start: 2;
     width: 6rem;
@@ -206,7 +206,7 @@
     padding-bottom: 1rem;
     margin-bottom: 2px solid #F7EAAB;
   }
-  #Experience-and-Interests button {
+  #Experience-and-Interests .read-more {
     grid-row-start: 1;
     grid-column-start: 2;
     width: 6rem;
